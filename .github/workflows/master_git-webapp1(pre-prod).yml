@@ -63,6 +63,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'git-webapp1'
-          slot-name: 'dev'
+          slot-name: 'pre-prod'
           package: .
           
